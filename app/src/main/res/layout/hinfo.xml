@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#DBE6FD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/spotname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#58585e"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/spotaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adress"
+                android:textColor="#7e7e87"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/spotdive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dive"
+                android:textColor="#58585e"
+                android:gravity="right"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
